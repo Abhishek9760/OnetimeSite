@@ -16,7 +16,7 @@ importers:
         version: 9.14.1
       altcha:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.5
       axios:
         specifier: ^1.7.7
         version: 1.7.7
@@ -797,8 +797,8 @@ packages:
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
 
-  altcha@1.0.0:
-    resolution: {integrity: sha512-USavcU/e/2pJtLXyWRYDZV63+OvTKGSntQlqQbF5feeChaTj8Hc1TtH8CbQi4OwX3ffeQiHuW+LCzwCgn+JvZg==}
+  altcha@1.0.5:
+    resolution: {integrity: sha512-+u5nrWaidIReedDtnAU8FPVsOySvFyi/KlPNtYmaWXp/RIiURWhrg3u6YJmCwSoiOoo5D40099pJGC8bJD+Klw==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -1150,6 +1150,7 @@ packages:
   eslint@8.57.1:
     resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@10.2.0:
@@ -2971,7 +2972,7 @@ snapshots:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
 
-  altcha@1.0.0:
+  altcha@1.0.5:
     dependencies:
       '@altcha/crypto': 0.0.1
     optionalDependencies:
